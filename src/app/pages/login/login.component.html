@@ -1,0 +1,21 @@
+
+
+<div class="container" id="principal">
+    <div id="logotipo" class="logotipo"></div>
+    <div id="identificacao">
+        <h1 class="login">Login</h1>
+    </div>
+    <div id="campos_login">
+        <label class="labelemail" id="labelemail">E-mail</label>
+        <input class="inputemail" id="email" name="email" placeholder="Digite o seu e-mail" #email>
+        <label class="labelsenha" id="labelsenha">Senha</label>
+        <input class="inputsenha" type="password" id="senha" name="senha" placeholder="Digite a sua senha" #password>
+    </div>
+    <div id="botoesformulario">
+        <span class="esqueceusenha" id="esqueceusenha">Esqueceu a senha</span>
+        <button class="btnentrar" id="btnentrar" (click)="entrar(email.value, password.value)">ENTRAR</button>
+    </div>
+</div>
+<div id="retangulo" class="retangulolateral">
+    <div class="simbolo" id="simbolo"></div>
+</div>

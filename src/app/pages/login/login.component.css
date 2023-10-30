@@ -1,0 +1,134 @@
+.logotipo{
+    position: absolute;
+    width: 240px;
+    height: 100px;
+    left: 67px;
+    top: 60px;
+
+    background: url(../../../assets/icons/creath.png);
+}
+.login{
+    position: absolute;
+    width: 362px;
+    height: 63px;
+    left: 93px;
+    top: 267px;
+
+    font-family: 'Optima';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #626262;
+}
+.labelemail{
+    position: absolute;
+    width: 247px;
+    height: 63px;
+    left: 93px;
+    top: 360px;
+
+    font-family: 'Optima';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #626262;
+
+}
+.labelsenha{
+    position: absolute;
+    width: 247px;
+    height: 63px;
+    left: 93px;
+    top: 493px;
+
+    font-family: 'Optima';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #626262;
+}
+
+.inputemail{
+    box-sizing: border-box;
+    position: absolute;
+    width: 479px;
+    height: 76px;
+    left: 93px;
+    top: 402px;
+    border: 1px solid #D7D3D3;
+    border-radius: 17px;
+}
+.inputsenha{
+    box-sizing: border-box;
+    position: absolute;
+    width: 479px;
+    height: 76px;
+    left: 93px;
+    top: 535px;
+
+    border: 1px solid #D7D3D3;
+    border-radius: 17px;
+}
+
+.esqueceusenha{
+    position: absolute;
+    width: 247px;
+    height: 63px;
+    left: 412px;
+    top: 624px;
+
+    font-family: 'Optima';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #b24dfe;
+    cursor: pointer;
+}
+
+.btnentrar{
+    position: absolute;
+    width: 479px;
+    height: 76px;
+    left: 93px;
+    top: 681px;
+
+    background: #b24dfe;
+    border-radius: 17px;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+.btnentrar:hover{
+    background-color: #626262;
+}
+
+.retangulolateral{
+    position: absolute;
+    width: 960px;
+    height: 100%;
+    left: 50%;
+    top: 0px;
+
+    background: linear-gradient(180deg, black 0%, #a53cf6af 100%);
+    border-radius: 61px 0px 0px 61px;
+}
+.container{
+    position: absolute;
+    left: 10%;
+
+}
+
+.simbolo{
+    position: absolute;
+    width: 240px;
+    height: 100px;
+    left: 40%;
+    top: 372px;
+
+    background: url(../../../assets/icons/creath.png);
+}
